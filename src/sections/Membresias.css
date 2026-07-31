@@ -1,0 +1,111 @@
+.membresias {
+  background: #f2f2f2;
+  color: #0d0d0d;
+  padding: 100px 80px;
+  text-align: center;
+}
+
+.mb-container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.mb-title {
+  font-size: 30px;
+  letter-spacing: 1px;
+  margin-bottom: 50px;
+}
+
+.mb-plans {
+  display: flex;
+  gap: 30px;
+  text-align: left;
+}
+
+.mb-card {
+  flex: 1;
+  background: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 14px;
+  padding: 32px;
+  position: relative;
+}
+
+.mb-card-featured {
+  border: 2px solid #ffc61a;
+}
+
+.mb-badge {
+  position: absolute;
+  top: -14px;
+  right: 20px;
+  background: #ffc61a;
+  color: #0d0d0d;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 6px 12px;
+  border-radius: 20px;
+}
+
+.mb-plan-name {
+  font-size: 13px;
+  letter-spacing: 1.5px;
+  color: #888;
+  font-weight: bold;
+  margin-bottom: 14px;
+}
+
+.mb-price {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+
+.mb-price span {
+  font-size: 36px;
+}
+
+.mb-price small {
+  font-size: 13px;
+  color: #888;
+  font-weight: normal;
+}
+
+.mb-list {
+  list-style: none;
+  margin-bottom: 30px;
+}
+
+.mb-list li {
+  font-size: 14px;
+  color: #444;
+  margin-bottom: 12px;
+  line-height: 1.5;
+}
+
+.mb-btn {
+  width: 100%;
+  background: #0d0d0d;
+  color: white;
+  border: none;
+  padding: 14px;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.mb-btn-featured {
+  background: #ffc61a;
+  color: #0d0d0d;
+}
+
+/* Responsive */
+@media (max-width: 700px) {
+  .membresias {
+    padding: 60px 24px;
+  }
+
+  .mb-plans {
+    flex-direction: column;
+  }
+}

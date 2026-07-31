@@ -1,0 +1,48 @@
+.legal-box {
+  background: #141414;
+  color: white;
+  border: 1px solid #2a2a2a;
+  border-radius: 16px;
+  padding: 40px;
+  width: 100%;
+  max-width: 560px;
+  max-height: 80vh;
+  overflow-y: auto;
+  position: relative;
+}
+
+.legal-title {
+  font-size: 24px;
+  margin-bottom: 6px;
+}
+
+.legal-updated {
+  color: #888;
+  font-size: 12px;
+  margin-bottom: 24px;
+}
+
+.legal-box h3 {
+  font-size: 15px;
+  color: #ffc61a;
+  margin-top: 22px;
+  margin-bottom: 8px;
+}
+
+.legal-box p {
+  color: #ccc;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.legal-box a {
+  color: #ffc61a;
+}
+
+/* Responsive */
+@media (max-width: 500px) {
+  .legal-box {
+    padding: 28px 22px;
+    max-height: 85vh;
+  }
+}

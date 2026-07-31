@@ -1,0 +1,227 @@
+.app-showcase {
+  background: #141414;
+  color: white;
+  padding: 100px 80px;
+}
+
+.as-container {
+  max-width: 1300px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1.1fr 1fr;
+  gap: 40px;
+  align-items: center;
+}
+
+.as-left h2,
+.as-right h2 {
+  font-size: 24px;
+  line-height: 1.4;
+  margin-bottom: 30px;
+}
+
+/* Features */
+.as-features {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+  margin-bottom: 30px;
+}
+
+.as-feature {
+  background: #1e1e1e;
+  border: 1px solid #2a2a2a;
+  border-radius: 10px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 13px;
+  color: #ddd;
+  line-height: 1.4;
+}
+
+.as-feature-icon {
+  width: 60px;
+  height: 60px;
+  background: #1b1b1b;
+  border: 2px solid #2a2a2a;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.as-feature-icon svg {
+  width: 28px;
+  height: 28px;
+  color: #FFC61A;
+}
+
+.as-tagline {
+  background: #ffc61a;
+  color: #0d0d0d;
+  font-weight: bold;
+  text-align: center;
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+/* Mockups de celular */
+.as-center {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 16px;
+}
+
+.phone-mockup {
+  width: 160px;
+  height: 320px;
+  background: #0d0d0d;
+  border: 6px solid #2a2a2a;
+  border-radius: 26px;
+  padding: 14px 10px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+}
+
+.phone-mockup-mid {
+  width: 180px;
+  height: 360px;
+  z-index: 2;
+}
+
+.phone-screen {
+  background: #1b1b1b;
+  height: 100%;
+  border-radius: 14px;
+  padding: 0;
+  overflow: hidden;
+}
+
+.phone-title {
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 14px;
+  color: #fff;
+}
+
+.phone-line {
+  height: 34px;
+  background: #2a2a2a;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.phone-line.short {
+  width: 60%;
+}
+
+.phone-chart {
+  height: 140px;
+  background: linear-gradient(180deg, rgba(255, 198, 26, 0.25), transparent);
+  border-bottom: 2px solid #ffc61a;
+  border-radius: 6px;
+}
+
+.phone-video {
+  height: 160px;
+  background: #2a2a2a;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.phone-video::after {
+  content: "▶";
+  color: #ffc61a;
+  font-size: 20px;
+}
+
+/* Columna derecha */
+.as-description {
+  color: #bdbdbd;
+  font-size: 15px;
+  line-height: 1.7;
+  margin-bottom: 35px;
+}
+
+.as-download-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.as-store-btn {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: black;
+  border: 1px solid #333;
+  border-radius: 10px;
+  padding: 10px 18px;
+  color: white;
+  width: fit-content;
+}
+
+.as-store-icon {
+  font-size: 22px;
+}
+
+.as-store-btn small {
+  display: block;
+  font-size: 10px;
+  color: #bbb;
+}
+
+.as-store-btn strong {
+  display: block;
+  font-size: 15px;
+}
+
+/* Responsive */
+@media (max-width: 1100px) {
+  .as-container {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .as-features {
+    text-align: left;
+  }
+
+  .as-center {
+    order: -1;
+    margin-bottom: 40px;
+  }
+
+  .as-download-buttons {
+    align-items: center;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .app-showcase {
+    padding: 60px 20px;
+  }
+
+  .as-center {
+    flex-wrap: wrap;
+  }
+
+  .phone-mockup,
+  .phone-mockup-mid {
+    width: 130px;
+    height: 260px;
+  }
+}
+.phone-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 14px;
+}

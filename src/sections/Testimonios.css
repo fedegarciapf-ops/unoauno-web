@@ -1,0 +1,75 @@
+.testimonios {
+  background: #f2f2f2;
+  color: #0d0d0d;
+  padding: 100px 80px;
+  text-align: center;
+}
+
+.ts-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.ts-title {
+  font-size: 26px;
+  letter-spacing: 1px;
+  margin-bottom: 40px;
+}
+
+.ts-card {
+  background: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 14px;
+  padding: 40px 36px;
+  position: relative;
+}
+
+.ts-quote {
+  font-size: 50px;
+  color: #ffc61a;
+  line-height: 1;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.ts-text {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.ts-autor {
+  font-size: 14px;
+  color: #888;
+  font-weight: bold;
+}
+
+.ts-dots {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 24px;
+}
+
+.ts-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #ccc;
+}
+
+.ts-dot.active {
+  background: #ffc61a;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .testimonios {
+    padding: 60px 24px;
+  }
+
+  .ts-card {
+    padding: 30px 24px;
+  }
+}
