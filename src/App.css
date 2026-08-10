@@ -2,7 +2,11 @@
 
 .hero {
   min-height: 100vh;
-  background: #0d0d0d;
+  background:
+    linear-gradient(to right, rgba(13,13,13,0.97) 0%, rgba(13,13,13,0.75) 45%, rgba(13,13,13,0.35) 100%),
+    url("./assets/images/foto-hero.png");
+  background-size: cover;
+  background-position: center right;
   color: white;
   padding: 40px 80px;
 }
@@ -40,15 +44,16 @@
 
 .hero-content {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
   height: 80vh;
 }
 
 .hero-left {
-  width: 50%;
+  width: 100%;
+  max-width: 650px;
+  text-align: left;
 }
-
 .hero-tag {
   color: #ffc61a;
   letter-spacing: 3px;
@@ -71,6 +76,7 @@
 .hero-buttons {
   display: flex;
   gap: 20px;
+  justify-content: flex-start;
 }
 
 .btn-primary {

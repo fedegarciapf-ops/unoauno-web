@@ -60,10 +60,6 @@ function Hero({ onAbrirConsulta }) {
 
                 </div>
 
-                <div className="hero-right">
-                    <img src={fotoHero} alt="Entrenador Uno a Uno" className="hero-image" />
-                </div>
-
             </div>
 
         </section>
