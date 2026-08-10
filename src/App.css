@@ -5,7 +5,7 @@
   background:
     linear-gradient(to right, rgba(13,13,13,0.97) 0%, rgba(13,13,13,0.75) 45%, rgba(13,13,13,0.35) 100%),
     url("./assets/images/foto-hero.png");
-  background-size: cover;
+  background-size: 80%;
   background-position: center right;
   color: white;
   padding: 40px 80px;
