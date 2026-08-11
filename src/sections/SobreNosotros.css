@@ -114,8 +114,8 @@
 }
 
 .sn-equipo-foto {
-  width: 180px;
-  height: 220px;
+  width: 220px;
+  height: 270px;
   object-fit: cover;
   border-radius: 8px;
   flex-shrink: 0;
