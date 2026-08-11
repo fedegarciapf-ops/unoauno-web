@@ -100,3 +100,103 @@
     font-size: 32px;
   }
 }
+
+/* Equipo */
+.sn-equipo {
+  display: flex;
+  gap: 35px;
+  background: white;
+  border: 1px solid #e0e0e0;
+  border-left: 4px solid #ffc61a;
+  border-radius: 8px;
+  padding: 35px;
+  align-items: flex-start;
+}
+
+.sn-equipo-foto {
+  width: 180px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 8px;
+  flex-shrink: 0;
+}
+
+.sn-equipo-info {
+  flex: 1;
+}
+
+.sn-equipo-nombre {
+  font-size: 24px;
+  margin-bottom: 4px;
+}
+
+.sn-equipo-rol {
+  color: #ffc61a;
+  font-weight: bold;
+  font-size: 15px;
+  margin-bottom: 18px;
+}
+
+.sn-equipo-desc {
+  color: #555;
+  font-size: 15px;
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+.sn-equipo-btn {
+  background: transparent;
+  color: #0d0d0d;
+  border: 2px solid #0d0d0d;
+  padding: 10px 24px;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.sn-equipo-btn:hover {
+  background: #0d0d0d;
+  color: white;
+}
+
+.sn-formaciones {
+  margin-top: 25px;
+  padding-top: 20px;
+  border-top: 1px solid #e8e8e8;
+}
+
+.sn-formaciones-title {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.sn-formaciones ul {
+  list-style: none;
+  display: grid;
+  gap: 12px;
+}
+
+.sn-formaciones li {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #444;
+}
+
+@media (max-width: 900px) {
+  .sn-equipo {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .sn-equipo-foto {
+    width: 100%;
+    max-width: 240px;
+    height: 280px;
+  }
+}
