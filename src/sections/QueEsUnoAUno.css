@@ -18,7 +18,7 @@
 
 .qe-text {
   color: #444;
-  font-size: 17px;
+  font-size: 19px;
   line-height: 1.8;
   margin-bottom: 18px;
   text-align: left;
@@ -27,7 +27,7 @@
 .qe-tagline {
   color: #ffc61a;
   font-style: italic;
-  font-size: 18px;
+  font-size: 20px;
   margin: 35px 0 50px;
 }
 
@@ -70,7 +70,7 @@
 
 .qe-item p {
   color: #666;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 1.6;
 }
 

@@ -23,7 +23,7 @@
 
 .sn-text {
   color: #444;
-  font-size: 17px;
+  font-size: 19px;
   line-height: 1.8;
   margin-bottom: 20px;
 }
@@ -51,7 +51,7 @@
 
 .sn-card p {
   color: #555;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 1.7;
 }
 
@@ -71,7 +71,7 @@
   display: flex;
   align-items: flex-start;
   gap: 12px;
-  font-size: 16px;
+  font-size: 17px;
   line-height: 1.6;
   color: #333;
 }
@@ -139,7 +139,7 @@
 
 .sn-equipo-desc {
   color: #555;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 1.7;
   margin-bottom: 20px;
 }
