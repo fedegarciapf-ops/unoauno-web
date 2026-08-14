@@ -11,14 +11,14 @@
 }
 
 .qe-title {
-  font-size: 36px;
+  font-size: 42px;
   margin-bottom: 30px;
   letter-spacing: 1px;
 }
 
 .qe-text {
   color: #444;
-  font-size: 16px;
+  font-size: 17px;
   line-height: 1.8;
   margin-bottom: 18px;
   text-align: left;
@@ -63,14 +63,14 @@
 }
 
 .qe-item h3 {
-  font-size: 14px;
+  font-size: 16px;
   letter-spacing: 0.5px;
   margin-bottom: 10px;
 }
 
 .qe-item p {
   color: #666;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 1.6;
 }
 
@@ -85,7 +85,7 @@
   }
 
   .qe-title {
-    font-size: 28px;
+    font-size: 32px;
   }
 }
 
