@@ -1,34 +1,29 @@
 import "./QueEsUnoAUno.css";
+import { FaHandshake, FaMobileAlt, FaGlobeAmericas, FaTrophy } from "react-icons/fa";
 
-import {
-  FaHandshake,
-  FaMobileAlt,
-  FaGlobeAmericas,
-  FaTrophy,
-} from "react-icons/fa";
 function QueEsUnoAUno() {
   const items = [
-  {
-    icono: <FaHandshake />,
-    titulo: "ENTRENAMIENTO PERSONALIZADO",
-    texto: "Planes adaptados a tus objetivos y necesidades.",
-  },
-  {
-    icono: <FaMobileAlt />,
-    titulo: "ACOMPAÑAMIENTO REAL",
-    texto: "Seguimiento, ajustes y comunicación constante.",
-  },
-  {
-    icono: <FaGlobeAmericas />,
-    titulo: "DESDE CUALQUIER LUGAR",
-    texto: "Entrená desde donde estés con nuestra aplicación.",
-  },
-  {
-    icono: <FaTrophy />,
-    titulo: "RESULTADOS SOSTENIBLES",
-    texto: "Un proceso pensado para durar en el tiempo.",
-  },
-];
+    {
+      icono: <FaHandshake />,
+      titulo: "ENTRENAMIENTO PERSONALIZADO",
+      texto: "Planes adaptados a tus objetivos y necesidades.",
+    },
+    {
+      icono: <FaMobileAlt />,
+      titulo: "ACOMPAÑAMIENTO REAL",
+      texto: "Seguimiento, ajustes y comunicación constante.",
+    },
+    {
+      icono: <FaGlobeAmericas />,
+      titulo: "DESDE CUALQUIER LUGAR",
+      texto: "Entrená desde donde estés con nuestra aplicación.",
+    },
+    {
+      icono: <FaTrophy />,
+      titulo: "RESULTADOS SOSTENIBLES",
+      texto: "Un proceso pensado para durar en el tiempo.",
+    },
+  ];
 
   return (
     <section className="que-es" id="que-es-uno-a-uno">
@@ -37,18 +32,30 @@ function QueEsUnoAUno() {
         <h2 className="qe-title">¿QUÉ ES UNO A UNO?</h2>
 
         <p className="qe-text">
-          UNO A UNO es una empresa de entrenamiento personalizado que
-          acompaña a las personas en cada etapa de su proceso, utilizando
-          planificación individual, seguimiento profesional y tecnología
-          propia para brindar un servicio cercano, sin importar la
-          distancia.
+          Somos un servicio de entrenamiento personalizado 100% virtual,
+          creado para acompañar a personas que quieren comenzar o
+          retomar la actividad física, mejorar su calidad de vida y
+          sentirse mejor, así como también a deportistas que buscan
+          mejorar su rendimiento o volver progresivamente a la actividad
+          después de una lesión.
         </p>
 
         <p className="qe-text">
-          Creemos que cada persona tiene una historia, un objetivo y un
-          punto de partida diferente. Por eso diseñamos planes de
-          entrenamiento adaptados a sus necesidades y los ajustamos según
-          su evolución.
+          Creemos que entrenar no debería significar recibir una rutina
+          y simplemente cumplirla. Por eso, en UNO A UNO construimos un
+          vínculo cercano entre alumno y entrenador: conocemos tu punto
+          de partida, tus objetivos y tus necesidades, planificamos tu
+          entrenamiento y acompañamos tu evolución.
+        </p>
+
+        <p className="qe-text">
+          Evaluamos, controlamos las cargas, analizamos tu progreso y
+          realizamos los ajustes necesarios a medida que avanzás.
+        </p>
+
+        <p className="qe-text">
+          Porque tu entrenamiento no debería ser una planificación
+          estática. Es un proceso que evoluciona con vos.
         </p>
 
         <p className="qe-tagline">

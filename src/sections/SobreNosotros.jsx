@@ -56,31 +56,6 @@ function SobreNosotros() {
           sostenible.
         </p>
 
-        <div className="sn-grid">
-
-          <div className="sn-card">
-            <h3>Nuestra misión</h3>
-            <p>
-              Ayudar a las personas a mejorar su salud, su rendimiento
-              físico y su calidad de vida mediante un entrenamiento
-              personalizado, basado en evidencia científica y acompañado
-              por un seguimiento profesional constante.
-            </p>
-          </div>
-
-          <div className="sn-card">
-            <h3>Nuestra visión</h3>
-            <p>
-              Ser una empresa referente en entrenamiento personalizado
-              online, reconocida por la calidad del servicio, la
-              innovación tecnológica y el compromiso con cada alumno,
-              demostrando que el acompañamiento profesional puede
-              trascender cualquier distancia.
-            </p>
-          </div>
-
-        </div>
-
         <h3 className="sn-valores-title">Nuestros valores</h3>
 
         <ul className="sn-valores-list">
