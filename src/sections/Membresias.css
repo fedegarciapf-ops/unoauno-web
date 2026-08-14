@@ -48,7 +48,7 @@
 }
 
 .mb-plan-name {
-  font-size: 13px;
+  font-size: 14px;
   letter-spacing: 1.5px;
   color: #888;
   font-weight: bold;
@@ -77,7 +77,7 @@
 }
 
 .mb-list li {
-  font-size: 14px;
+  font-size: 16px;
   color: #444;
   margin-bottom: 12px;
   line-height: 1.5;
@@ -90,7 +90,7 @@
   border: none;
   padding: 14px;
   border-radius: 30px;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: bold;
 }
 

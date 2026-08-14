@@ -15,7 +15,7 @@
 
 .as-left h2,
 .as-right h2 {
-  font-size: 24px;
+  font-size: 28px;
   line-height: 1.4;
   margin-bottom: 30px;
 }
@@ -36,7 +36,7 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
-  font-size: 13px;
+  font-size: 15px;
   color: #ddd;
   line-height: 1.4;
 }
@@ -66,7 +66,7 @@
   text-align: center;
   padding: 12px;
   border-radius: 6px;
-  font-size: 14px;
+  font-size: 15px;
 }
 
 /* Mockups de celular */
@@ -144,7 +144,7 @@
 /* Columna derecha */
 .as-description {
   color: #bdbdbd;
-  font-size: 15px;
+  font-size: 17px;
   line-height: 1.7;
   margin-bottom: 35px;
 }
