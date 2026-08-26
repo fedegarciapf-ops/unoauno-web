@@ -14,7 +14,7 @@ function Membresias({ onAbrirConsulta }) {
             <p className="mb-plan-name">MENSUAL</p>
 
             <p className="mb-price">
-              <span>$...</span> <small>/ MES</small>
+              <span>$50.000</span> <small>/ MES</small>
             </p>
 
             <ul className="mb-list">
@@ -34,7 +34,7 @@ function Membresias({ onAbrirConsulta }) {
             <p className="mb-plan-name">TRIMESTRAL</p>
 
             <p className="mb-price">
-              <span>$...</span> <small>/ 3 MESES</small>
+              <span>$135.000</span> <small>/ 3 MESES</small>
             </p>
 
             <ul className="mb-list">
