@@ -29,12 +29,12 @@ function Membresias({ onAbrirConsulta }) {
 
           {/* Plan Trimestral */}
           <div className="mb-card mb-card-featured">
-            <span className="mb-badge">AHORRÁ 17%</span>
+            <span className="mb-badge">AHORRÁ 15%</span>
 
             <p className="mb-plan-name">TRIMESTRAL</p>
 
             <p className="mb-price">
-              <span>$135.000</span> <small>/ 3 MESES</small>
+              <span>$127.500</span> <small>/ 3 MESES</small>
             </p>
 
             <ul className="mb-list">
