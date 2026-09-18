@@ -59,14 +59,14 @@
 }
 
 .mb-plan-subtitle {
-  font-size: 14px;
+  font-size: 15px;
   color: #ffc61a;
   font-weight: bold;
   margin-bottom: 16px;
 }
 
 .mb-plan-desc {
-  font-size: 14px;
+  font-size: 15px;
   color: #666;
   line-height: 1.6;
   margin-bottom: 18px;
@@ -79,7 +79,7 @@
 }
 
 .mb-list li {
-  font-size: 15px;
+  font-size: 16px;
   color: #444;
   margin-bottom: 12px;
   line-height: 1.5;
@@ -99,12 +99,12 @@
 }
 
 .mb-price-row span {
-  font-size: 13px;
+  font-size: 14px;
   color: #888;
 }
 
 .mb-price-row strong {
-  font-size: 18px;
+  font-size: 20px;
   color: #0d0d0d;
   font-weight: bold;
 }
